@@ -1,6 +1,5 @@
 use futures::{future, Future};
-use serde_json::json;
-use std::{any::Any, collections::HashMap};
+use std::any::Any;
 
 use crate::utilities::{dto::sqs_event::SQSEvent, typing::lambda_context::LambdaContext};
 use async_trait::async_trait;
